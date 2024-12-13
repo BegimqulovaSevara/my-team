@@ -175,6 +175,58 @@ ul{
   font-size: 15px;
 }
 
+/* Succes-stories section */
+.succes-stories {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: var(--deep-jungle-green);
+  text-align: center;
+}
+.succes-stories--container {
+
+}
+.succes-stories--title {
+  margin-bottom: 56px;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+.succes-stories--list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  position: relative;
+}
+.succes-stories--list__item {
+  width: 350px;
+  background-image: url(../images/“.png);
+  background-position: center top; 
+  background-repeat: no-repeat;
+}
+.succes-stories--list__item:not(:last-child){
+  margin-right: 30px;
+}
+.succes-stories--list__paragraph {
+  padding-top: 36px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.succes-stories--list__team {
+}
+.succes-stories--name {
+  margin-bottom: 2px;
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--rapture-blue);
+}
+.succes-stories--position {
+  margin-bottom: 32px;
+  display: block;
+  font-weight: 500;
+  font-size: 13px;
+}
 
 /* Get started section */
 .get-started {
