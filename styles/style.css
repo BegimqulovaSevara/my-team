@@ -253,3 +253,55 @@ ul{
   color: var(--sacramento-state-green);
   line-height: 1;
 }
+
+/* FOOTER SECTION */
+.footer {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: var(--dark-green);
+}
+.footer--container {
+  display: flex;
+}
+.footer--icon-nav__wrapper {
+  margin-right: 125px;
+}
+.header--icon {
+}
+.footer--nav {
+  margin-top: 25px;
+}
+.footer--nav__link {
+  text-decoration: none;
+  color: var(--white);
+}
+.footer--nav__link:not(:last-child){
+  margin-right: 40px;
+}
+.footer--info__wrapper {
+  margin-right: auto;
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 60%;
+}
+.footer--socials__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.footer--socials__list {
+  margin: 0;
+  margin-bottom: auto;
+  padding: 0;
+  display: flex;
+}
+.footer--socials__list-item {
+}
+.footer--socials__list-item:not(:last-child){
+  margin-right: 16px;
+}
+.footer--socials__info {
+  opacity: 60%;
+  font-weight: 600;
+  font-size: 15px;
+}
