@@ -266,8 +266,6 @@ ul{
 .footer--icon-nav__wrapper {
   margin-right: 125px;
 }
-.header--icon {
-}
 .footer--nav {
   margin-top: 25px;
 }
@@ -294,8 +292,6 @@ ul{
   margin-bottom: auto;
   padding: 0;
   display: flex;
-}
-.footer--socials__list-item {
 }
 .footer--socials__list-item:not(:last-child){
   margin-right: 16px;
