@@ -301,7 +301,7 @@ ul{
 
 
 /* ABOUT PAGE */
-/* Header main secton */
+/*About page Header main secton */
 .about-main--title{
   padding-right: 115px;
 }
@@ -314,4 +314,71 @@ ul{
 }
 .about-main-info--paragraph{
   width: auto;
+}
+/* About page Team-leaders section */
+.team-leaders {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: var(--deep-jungle-green);
+}
+.team-leaders--title{
+  margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+.team-leaders--wrapper {
+  display: flex;
+}
+.team-leader--one-leader {
+  position: relative;
+  width: 350px;
+  height: 253px;
+  margin-bottom: 76px;
+  padding-top: 32px;
+  padding-right: 24px;
+  padding-left: 24px;
+  text-align: center;
+  background-color: var(--sacramento-state-green);
+}
+.team-leader--one-leader:not(:last-child){
+  margin-right: 30px;
+}
+.team-leaders--name {
+  margin-top: 16px;
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--rapture-blue);
+}
+.team-leaders--position {
+  display: block;
+}
+.team-leaders--plus {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -28px;
+  left: 147px;
+  background-color: var(--light-coral);
+}
+.team-leaders--x-icon{
+  background-color: var(--rapture-blue);
+}
+.plus-icon {
+  width: 16px;
+  height: 16px;
+  margin-top: 20px;
+}
+.team-leaders--about {
+  padding-right: 24px;
+  padding-left: 24px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  display: block;
+  text-align: center;
+}
+.team-leaders--social:not(:last-child){
+  margin-right: 16px;
 }
