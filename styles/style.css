@@ -182,9 +182,6 @@ ul{
   background-color: var(--deep-jungle-green);
   text-align: center;
 }
-.succes-stories--container {
-
-}
 .succes-stories--title {
   margin-bottom: 56px;
   font-weight: 700;
@@ -300,4 +297,21 @@ ul{
   opacity: 60%;
   font-weight: 600;
   font-size: 15px;
+}
+
+
+/* ABOUT PAGE */
+/* Header main secton */
+.about-main--title{
+  padding-right: 115px;
+}
+.about-main-info--wrapper{
+  width: 730px;
+}
+.about-main--hroll{
+  background-color: var(--light-coral);
+  border-color: var(--light-coral);
+}
+.about-main-info--paragraph{
+  width: auto;
 }
