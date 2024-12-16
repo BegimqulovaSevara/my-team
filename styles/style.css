@@ -410,3 +410,74 @@ ul{
 }
 .clients-- {
 }
+
+/* Contact page */
+/* Contact section */
+.contact {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.contact--container {
+  display: flex;
+}
+.info-wrapper {
+  margin-right: 30px;
+}
+.contact--title {
+  padding: 0;
+  font-weight: 700;
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+.contact--mini-title {
+  padding: 0;
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--light-coral);
+}
+.contact--list{
+  padding-left: 15px;
+}
+.list--info__paragraph{
+  font-weight: 700;
+  font-size: 18px;
+}
+.list-icon-wrapper {
+}
+.list--icon {
+}
+.team-managament--list__info {
+}
+.list--info__paragraph {
+}
+.contact--form {
+}
+.contact--input {
+  width: 540px;
+  padding-bottom: 16px;
+  padding-left: 14px;
+  color: var(--white);
+  opacity: 60%;
+  display: block;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--white);
+  font-weight: 600;
+  font-size: 16px;
+}
+.contact--input:not(:last-child){
+  margin-bottom: 24px;
+}
+.message-input{
+  padding-bottom: 58px;
+}
+.contact--button {
+  margin-top: 24px;
+  padding: 11px 32px 11px 32px;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  color: var(--deep-jungle-green);
+}
