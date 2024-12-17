@@ -66,6 +66,9 @@ ul{
 .header{
   padding-top: 77px;
   background-color: var(--midnight-green);
+  background-image: url("../images/bg-img1.png"), url("../images/bg-img2.png");
+  background-repeat: no-repeat;
+  background-position: left -100px center, right 165px bottom -100px;
 }
 .header--container{
   display: flex;
@@ -91,12 +94,12 @@ ul{
   border-radius: 24px;
 }
 /* Best talent section */
-.best-talent--container{
-  margin-top: 129px;
-}
 .best-talent {
   padding-bottom: 250px;
   display: flex;
+}
+.best-talent--container{
+  margin-top: 129px;
 }
 .best-talent--title {
   margin: 0;
@@ -124,6 +127,9 @@ ul{
 /* Team managament section */
 .team-managament{
   background-color: var(--sacramento-state-green);
+  background-image: url("../images/bg-img3.png");
+  background-repeat: no-repeat;
+  background-position: right -100px bottom;
 }
 .team-managament--container{
   padding-top: 140px;
@@ -181,6 +187,9 @@ ul{
   padding-bottom: 140px;
   background-color: var(--deep-jungle-green);
   text-align: center;
+  background-image: url("../images/bg-img4.png"), url("../images/bg-img5.png");
+  background-repeat: no-repeat;
+  background-position: top left, right bottom -100px;
 }
 .succes-stories--title {
   margin-bottom: 56px;
@@ -209,8 +218,6 @@ ul{
   font-weight: 600;
   font-size: 15px;
 }
-.succes-stories--list__team {
-}
 .succes-stories--name {
   margin-bottom: 2px;
   display: block;
@@ -229,6 +236,9 @@ ul{
 .get-started {
   background-color: var(--light-coral);
   color: var(--sacramento-state-green);
+  background-image: url("../images/bg-img6.png");
+  background-repeat: no-repeat;
+  background-position: left bottom -60px;
 }
 .get-started--container {
   padding-top: 76px;
@@ -302,6 +312,13 @@ ul{
 
 /* ABOUT PAGE */
 /*About page Header main secton */
+.about-header{
+  padding-top: 77px;
+  background-color: var(--midnight-green);
+  background-image: url("../images/bg-img7.png");
+  background-repeat: no-repeat;
+  background-position: right -100px bottom;
+}
 .about-main--title{
   padding-right: 115px;
 }
@@ -320,6 +337,9 @@ ul{
   padding-top: 140px;
   padding-bottom: 140px;
   background-color: var(--deep-jungle-green);
+  background-image: url("../images/bg-img5.png"), url("../images/bg-img4.png");
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
 }
 .team-leaders--title{
   margin-bottom: 64px;
@@ -387,9 +407,9 @@ ul{
   padding-top: 140px;
   padding-bottom: 140px;
   background-color: var(--sacramento-state-green);
-}
-.clients--container {
-
+  background-image: url("../images/bg-img3.png");
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 .icon{
   color: #ffffff:
@@ -403,16 +423,19 @@ ul{
 .clients--list {
   display: flex;
 }
-.clients--list__item {
-}
 .clients--list__item:not(:last-child){
   margin-right: 80px;
-}
-.clients-- {
 }
 
 /* Contact page */
 /* Contact section */
+.contact-header{
+  padding-top: 77px;
+  background-color: var(--midnight-green);
+  background-image: url("../images/bg-img5.png"), url("../images/bg-img8.png");
+  background-repeat: no-repeat;
+  background-position: top 145px left -60px, right -100px bottom;
+}
 .contact {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -442,16 +465,6 @@ ul{
 .list--info__paragraph{
   font-weight: 700;
   font-size: 18px;
-}
-.list-icon-wrapper {
-}
-.list--icon {
-}
-.team-managament--list__info {
-}
-.list--info__paragraph {
-}
-.contact--form {
 }
 .contact--input {
   width: 540px;
